@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="12E55" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="GRViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view tag="1" contentMode="scaleToFill" id="hym-UJ-V4S">
+                                <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.61971104720349302" blue="0.0022623732158707499" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view tag="1" contentMode="scaleToFill" id="k4H-9p-LW1">
+                                <rect key="frame" x="668" y="0.0" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.61971104720000003" blue="0.0022623732159999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view tag="1" contentMode="scaleToFill" id="lL1-Lp-HaN">
+                                <rect key="frame" x="668" y="924" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.61971104720000003" blue="0.0022623732159999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view tag="1" contentMode="scaleToFill" id="uLH-AE-Km3">
+                                <rect key="frame" x="0.0" y="924" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.61971104720000003" blue="0.0022623732159999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="view1" destination="hym-UJ-V4S" id="OzU-Oe-ZBn"/>
+                        <outlet property="view2" destination="k4H-9p-LW1" id="nC4-h3-j2m"/>
+                        <outlet property="view3" destination="lL1-Lp-HaN" id="Hj7-8p-1ke"/>
+                        <outlet property="view4" destination="uLH-AE-Km3" id="hT8-fQ-0Dl"/>
+                        <outletCollection property="views" destination="hym-UJ-V4S" id="EQh-9o-EuV"/>
+                        <outletCollection property="views" destination="k4H-9p-LW1" id="PJn-KA-MtE"/>
+                        <outletCollection property="views" destination="lL1-Lp-HaN" id="G2O-8X-Cqe"/>
+                        <outletCollection property="views" destination="uLH-AE-Km3" id="CV7-Qc-yW4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
